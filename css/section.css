@@ -1,0 +1,36 @@
+.section {
+  padding: 10px;
+}
+
+.section__paragraph {
+  background-color: #f8d7d38c;
+  border: 2.5px solid #293c6b;
+  margin: auto;
+  box-sizing: border-box;
+  box-shadow: 3px -3px 8px 0px #6e77a3;
+  list-style-type: circle;
+  padding: 20px 40px;
+}
+
+.section__paragraph--important {
+  text-decoration: underline;
+}
+
+.section__list {
+  background-color: #f8d7d38c;
+  border: 2.5px solid #293c6b;
+  margin: auto;
+  box-sizing: border-box;
+  box-shadow: 3px -3px 8px 0px #6e77a3;
+  list-style-type: circle;
+  padding: 20px 40px;
+}
+
+.section__subHeader {
+  color: #dfdfdf;
+  background-color: #293c6b;
+  font-size: 18px;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 20px;
+}

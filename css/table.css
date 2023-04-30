@@ -1,0 +1,46 @@
+
+
+.table {
+  border-collapse: collapse;
+  font-size: 14px;
+  width: 100%;
+}
+
+.table__caption {
+  text-align: right;
+  font-weight: bold;
+  font-size: 18px;
+  caption-side: bottom;
+  margin-top: 10px;
+}
+
+.table__cell {
+  border: 2px solid #000000;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: normal;
+}
+
+.table__cell--header {
+  color: #dfdfdf;
+  background-color: #293c6b;
+}
+
+.table__row:hover {
+  background-color: #f8d7d38c;
+}
+
+.table__link {
+  text-decoration: none;
+  color: #3761ca;
+}
+
+.table__link:hover {
+  border-bottom: 1px solid;
+  outline: none;
+}
+
+.table__openNewTab {
+  font-size: 11px;
+}

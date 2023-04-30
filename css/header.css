@@ -1,0 +1,29 @@
+.header--centered {
+  text-align: center;
+}
+
+.header__image {
+  max-width: 250px;
+  width: 100%;
+  margin: 10px auto;
+}
+
+.header__button {
+  padding: 10px 20px;
+  margin: 10px auto;
+  font-size: 12px;
+  font-weight: bold;
+  border: 2px solid #293c6b;
+  border-radius: 20px;
+  background-color: #f8d7d38c;
+  width: 150px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.header__button:hover {
+  background-color: #293c6b;
+  color: #ffffff;
+  box-shadow: 3px 3px 6px 0px #6e77a3;
+}
