@@ -1,184 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thanh's Personal Site</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link href="css/navigation.css" rel="stylesheet" />
+    <link href="css/section.css" rel="stylesheet" />
+    <link href="css/tableContainer.css" rel="stylesheet" />
+    <link href="css/table.css" rel="stylesheet" />
+    <link href="css/footer.css" rel="stylesheet" />
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Thanh's Personal Site</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer">
-  <link href="css/style.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/header.css">
-  <link href="css/navigation.css" rel="stylesheet">
-  <link href="css/section.css" rel="stylesheet">
-  <link href="css/tableContainer.css" rel="stylesheet">
-  <link href="css/table.css" rel="stylesheet">
-  <link href="css/footer.css" rel="stylesheet">
-  <script defer src="js/script.js"></script>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
-</head>
-
-<body class="body">
-
-  <nav class="navigation">
-    <ul class="navigation__list">
-      <li class="navigation__item"><a class="navigation__link" href="#about-me">About Me</a></li>
-      <li class="navigation__item"><a class="navigation__link" href="#skills">Skills</a></li>
-      <li class="navigation__item"><a class="navigation__link" href="#projects">Projects</a></li>
-      <li class="navigation__item"><a class="navigation__link" href="#hobby">Hobby</a></li>
-      <li class="navigation__item"><a class="navigation__link" href="#music">Music</a></li>
-    </ul>
-  </nav>
-
-  <header class="header header--centered">
-    <h1 class="header__title js-title">Welcome to my site!</h1>
-    <div>
-      <img class="header__image js-image" src="https://i.ibb.co/5xN01yC/tayako.png" alt="Thanh Pham" width="250">
-    </div>
-    <button class="header__button js-hidePhotoButton"><span class="js-hideShow">HIDE</span> PHOTO</button>
-
-    <button class="header__button js-changeHeaderButton">CHANGE HEADER</button>
-  </header>
-
-  <main>
-
-    <section class="section" id="about-me">
-      <h2 class="section__subHeader">ABOUT ME</h2>
-      <p class="section__paragraph">
-        Hi! I'm Thanh. My passion is frontend creating. In 2021 I decided to become a
-        <em>self</em>-taught Frontend
-        Developer based in <b>Warsaw</b>, Poland. Having spent some time on learning how to design <span class="section__paragraph--important">websites</span> and create <span class="section__paragraph--important">web
-          applications</span>.
-      </p>
-    </section>
-
-    <section class="section" id="new-paragraph">
-      <h2 class="section__subHeader">TEST HEADER (for GIT exercise)</h2>
-      <p class="section__paragraph">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sunt quam, cum fugiat doloremque labore ullam impedit eaque dignissimos optio minus soluta asperiores sed nostrum! Nihil optio rerum non odio!
-    </section>
-
-    <section class="section" id="skills">
-      <h2 class="section__subHeader">SKILLS</h2>
-      <ul class="section__list">
-        <li class="section__item">HTML</li>
-        <li class="section__item">CSS (Bootstrap & SASS)</li>
-        <li class="section__item">JavaScript</li>
-        <li class="section__item">React</li>
-        <li class="section__item">mySQL</li>
-        <li class="section__item">Python</li>
-        <li class="section__item">nodeJS</li>
-        <li class="section__item">Adobe Photoshop CC 2020</li>
+  <body class="body">
+    <nav class="navigation">
+      <ul class="navigation__list">
+        <li class="navigation__item">
+          <a class="navigation__link" href="#about-me">About Me</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#skills">Skills</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#projects">Projects</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#hobby">Hobby</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#music">Music</a>
+        </li>
       </ul>
-    </section>
+    </nav>
 
-    <section class="section" id="projects">
-      <h2 class="section__subHeader">PROJECTS</h2>
-      <ul class="section__list">
-        <li class="section__item">Personal website</li>
-        <li class="section__item">Team project</li>
-      </ul>
-    </section>
-
-    <section class="section" id="hobby">
-      <h2 class="section__subHeader">HOBBY</h2>
-      <ul class="section__list">
-        <li class="section__item">Reading books</li>
-        <li class="section__item">Travelling</li>
-        <li class="section__item">Writting novels</li>
-        <li class="section__item">Playing the piano</li>
-        <li class="section__item">Swimming</li>
-        <li class="section__item">Graphic design</li>
-      </ul>
-
-    </section>
-
-    <section class="section" id="music">
-      <h2 class="section__subHeader">MUSIC</h2>
-      <div class="tableContainer">
-
-        <table class="table">
-          <caption class="table__caption">MY FAVOURITE TRACKS</caption>
-
-          <thead>
-            <tr class="table__row">
-              <th class="table__cell table__cell--header" scope="col">Title</th>
-              <th class="table__cell table__cell--header" scope="col">Artist</th>
-              <th class="table__cell table__cell--header" scope="col">Realese year</th>
-              <th class="table__cell table__cell--header" scope="col">Listen</th>
-            </tr>
-          </thead>
-
-          <tbody>
-
-            <tr class="table__row">
-              <th class="table__cell table__cell--header" scope="row">Stop The World I Wanna Get Off With You</th>
-              <td class="table__cell">Arctic Monkeys</td>
-              <td class="table__cell">2013</td>
-              <td class="table__cell"><a class="table__link" rel="noreferrer noopener" target="_blank" href="https://www.youtube.com/watch?v=3PyoxMSEHYI" title="Arctic Monkeys - Stop The World I Wanna Get Off With You">youtube <span class="table__openNewTab">(open in new tab)</span></a>
-              </td>
-            </tr>
-
-            <tr class="table__row">
-              <th class="table__cell table__cell--header" scope="row">Husavik (My Hometown)</th>
-              <td class="table__cell">Molly Sandén ft. Will Ferell</td>
-              <td class="table__cell">2020</td>
-              <td class="table__cell"><a class="table__link" rel="noreferrer noopener" target="_blank" href="https://www.youtube.com/watch?v=qjuphuG3ndw" title="Molly Sandén ft. Will Ferell - Husavik (My Hometown) ">youtube <span class="table__openNewTab">(open in new tab)</span></a></td>
-            </tr>
-
-            <tr class="table__row">
-              <th class="table__cell table__cell--header" scope="row">Ride</th>
-              <td class="table__cell">Twenty One Pilots</td>
-              <td class="table__cell">2015</td>
-              <td class="table__cell"><a class="table__link" rel="noreferrer noopener" target="_blank" href="https://www.youtube.com/watch?v=Pw-0pbY9JeU" title="Twenty One Pilots - Ride">youtube
-                  <span class="table__openNewTab">(open in new tab)</span></a></td>
-            </tr>
-
-            <tr class="table__row">
-              <th class="table__cell table__cell--header" scope="row">My Head & My Heart</th>
-              <td class="table__cell">Ava Max</td>
-              <td class="table__cell">2021</td>
-              <td class="table__cell"><a class="table__link" href="https://www.youtube.com/watch?v=w8mBplMtwJ8" title="Ava Max - My Head & My Heart">youtube <span class="table__openNewTab">(open in new
-                    tab)</span></a></td>
-            </tr>
-
-            <tr class="table__row">
-              <th class="table__cell table__cell--header" scope="row">Somebody That I Used To Know</th>
-              <td class="table__cell">Glee Cast</td>
-              <td class="table__cell">2011</td>
-              <td class="table__cell"><a class="table__link" rel="noreferrer noopener" target="_blank" href="https://www.youtube.com/watch?v=0uFB92lXmUc" title="Glee Cast - Somebody That I Used To Know ">youtube <span class="table__openNewTab">(open
-                    in
-                    new
-                    tab)</span></a></td>
-            </tr>
-
-            <tr class="table__row">
-              <th class="table__cell table__cell--header" scope="row">River Flows In You</th>
-              <td class="table__cell">Yiruma</td>
-              <td class="table__cell">2001</td>
-              <td class="table__cell"><a class="table__link" rel="noreferrer noopener" target="_blank" href="https://www.youtube.com/watch?v=7maJOI3QMu0" title="Yiruma - River Flows In You ">youtube <span class="table__openNewTab">(open in new
-                    tab)</span></a></td>
-            </tr>
-
-            <tr class="table__row">
-              <th class="table__cell table__cell--header" scope="row">Five Feet Of Snow</th>
-              <td class="table__cell">The Dirty Secrets</td>
-              <td class="table__cell">2008</td>
-              <td class="table__cell"><a class="table__link" rel="noreferrer noopener" target="_blank" href="https://www.youtube.com/watch?v=B2MSUOkht6Q" title="The Dirty Secrets - Five Feet Of Snow ">youtube <span class="table__openNewTab">(open in
-                    new
-                    tab)</span></a></td>
-            </tr>
-
-          </tbody>
-        </table>
+    <header class="header header--centered">
+      <h1 class="header__title js-title">Welcome to my site!</h1>
+      <div>
+        <img
+          class="header__image js-image"
+          src="https://i.ibb.co/5xN01yC/tayako.png"
+          alt="Thanh Pham"
+          width="250"
+        />
       </div>
-    </section>
-  </main>
+      <button class="header__button js-hidePhotoButton">
+        <span class="js-hideShow">HIDE</span> PHOTO
+      </button>
 
-  <footer class="footer">
-    <p>Copyright &copy; 2023 Thanh Pham</p>
-  </footer>
+      <button class="header__button js-changeHeaderButton">
+        CHANGE HEADER
+      </button>
+    </header>
 
-</body>
+    <main>
+      <section class="section" id="about-me">
+        <h2 class="section__subHeader">ABOUT ME</h2>
+        <p class="section__paragraph">
+          Hi! I'm Thanh. My passion is frontend creating. In 2021 I decided to
+          become a
+          <em>self</em>-taught Frontend Developer based in <b>Warsaw</b>,
+          Poland. Having spent some time on learning how to design
+          <span class="section__paragraph--important">websites</span> and create
+          <span class="section__paragraph--important">web applications</span>.
+        </p>
+      </section>
 
+      <section class="section" id="skills">
+        <h2 class="section__subHeader">SKILLS</h2>
+        <ul class="section__list">
+          <li class="section__item">HTML</li>
+          <li class="section__item">CSS (Bootstrap & SASS)</li>
+          <li class="section__item">JavaScript</li>
+          <li class="section__item">React</li>
+          <li class="section__item">mySQL</li>
+          <li class="section__item">Python</li>
+          <li class="section__item">nodeJS</li>
+          <li class="section__item">Adobe Photoshop CC 2020</li>
+        </ul>
+      </section>
+
+      <section class="section" id="projects">
+        <h2 class="section__subHeader">PROJECTS</h2>
+        <ul class="section__list">
+          <li class="section__item">Personal website</li>
+          <li class="section__item">Team project</li>
+        </ul>
+      </section>
+
+      <section class="section" id="hobby">
+        <h2 class="section__subHeader">HOBBY</h2>
+        <ul class="section__list">
+          <li class="section__item">Reading books</li>
+          <li class="section__item">Travelling</li>
+          <li class="section__item">Writting novels</li>
+          <li class="section__item">Playing the piano</li>
+          <li class="section__item">Swimming</li>
+          <li class="section__item">Graphic design</li>
+        </ul>
+      </section>
+
+      <section class="section" id="music">
+        <h2 class="section__subHeader">MUSIC</h2>
+        <div class="tableContainer">
+          <table class="table">
+            <caption class="table__caption">
+              MY FAVOURITE TRACKS
+            </caption>
+
+            <thead>
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="col">
+                  Title
+                </th>
+                <th class="table__cell table__cell--header" scope="col">
+                  Artist
+                </th>
+                <th class="table__cell table__cell--header" scope="col">
+                  Realese year
+                </th>
+                <th class="table__cell table__cell--header" scope="col">
+                  Listen
+                </th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">
+                  Stop The World I Wanna Get Off With You
+                </th>
+                <td class="table__cell">Arctic Monkeys</td>
+                <td class="table__cell">2013</td>
+                <td class="table__cell">
+                  <a
+                    class="table__link"
+                    rel="noreferrer noopener"
+                    target="_blank"
+                    href="https://www.youtube.com/watch?v=3PyoxMSEHYI"
+                    title="Arctic Monkeys - Stop The World I Wanna Get Off With You"
+                    >youtube
+                    <span class="table__openNewTab">(open in new tab)</span></a
+                  >
+                </td>
+              </tr>
+
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">
+                  Husavik (My Hometown)
+                </th>
+                <td class="table__cell">Molly Sandén ft. Will Ferell</td>
+                <td class="table__cell">2020</td>
+                <td class="table__cell">
+                  <a
+                    class="table__link"
+                    rel="noreferrer noopener"
+                    target="_blank"
+                    href="https://www.youtube.com/watch?v=qjuphuG3ndw"
+                    title="Molly Sandén ft. Will Ferell - Husavik (My Hometown) "
+                    >youtube
+                    <span class="table__openNewTab">(open in new tab)</span></a
+                  >
+                </td>
+              </tr>
+
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">
+                  Ride
+                </th>
+                <td class="table__cell">Twenty One Pilots</td>
+                <td class="table__cell">2015</td>
+                <td class="table__cell">
+                  <a
+                    class="table__link"
+                    rel="noreferrer noopener"
+                    target="_blank"
+                    href="https://www.youtube.com/watch?v=Pw-0pbY9JeU"
+                    title="Twenty One Pilots - Ride"
+                    >youtube
+                    <span class="table__openNewTab">(open in new tab)</span></a
+                  >
+                </td>
+              </tr>
+
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">
+                  My Head & My Heart
+                </th>
+                <td class="table__cell">Ava Max</td>
+                <td class="table__cell">2021</td>
+                <td class="table__cell">
+                  <a
+                    class="table__link"
+                    href="https://www.youtube.com/watch?v=w8mBplMtwJ8"
+                    title="Ava Max - My Head & My Heart"
+                    >youtube
+                    <span class="table__openNewTab">(open in new tab)</span></a
+                  >
+                </td>
+              </tr>
+
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">
+                  Somebody That I Used To Know
+                </th>
+                <td class="table__cell">Glee Cast</td>
+                <td class="table__cell">2011</td>
+                <td class="table__cell">
+                  <a
+                    class="table__link"
+                    rel="noreferrer noopener"
+                    target="_blank"
+                    href="https://www.youtube.com/watch?v=0uFB92lXmUc"
+                    title="Glee Cast - Somebody That I Used To Know "
+                    >youtube
+                    <span class="table__openNewTab">(open in new tab)</span></a
+                  >
+                </td>
+              </tr>
+
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">
+                  River Flows In You
+                </th>
+                <td class="table__cell">Yiruma</td>
+                <td class="table__cell">2001</td>
+                <td class="table__cell">
+                  <a
+                    class="table__link"
+                    rel="noreferrer noopener"
+                    target="_blank"
+                    href="https://www.youtube.com/watch?v=7maJOI3QMu0"
+                    title="Yiruma - River Flows In You "
+                    >youtube
+                    <span class="table__openNewTab">(open in new tab)</span></a
+                  >
+                </td>
+              </tr>
+
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">
+                  Five Feet Of Snow
+                </th>
+                <td class="table__cell">The Dirty Secrets</td>
+                <td class="table__cell">2008</td>
+                <td class="table__cell">
+                  <a
+                    class="table__link"
+                    rel="noreferrer noopener"
+                    target="_blank"
+                    href="https://www.youtube.com/watch?v=B2MSUOkht6Q"
+                    title="The Dirty Secrets - Five Feet Of Snow "
+                    >youtube
+                    <span class="table__openNewTab">(open in new tab)</span></a
+                  >
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Copyright &copy; 2023 Thanh Pham</p>
+    </footer>
+  </body>
 </html>
